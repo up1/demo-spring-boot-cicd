@@ -23,7 +23,7 @@ public class UserControllerSpringBootTest {
     public void initData() {
         // Intial data
         userRepository.save(new User("demo for test", 30));
-        userRepository.save(new User("demo for test 2", 40));
+//        userRepository.save(new User("demo for test 2", 40));
     }
 
     @AfterEach
