@@ -8,6 +8,8 @@ public class UserResponse {
     private String name;
     private int age;
 
+    private String updated;
+
     public UserResponse() {
     }
 
@@ -15,6 +17,14 @@ public class UserResponse {
         this.id = id;
         this.name = name;
         this.age = age;
+    }
+
+    public String getUpdated() {
+        return updated;
+    }
+
+    public void setUpdated(String updated) {
+        this.updated = updated;
     }
 
     public int getId() {
