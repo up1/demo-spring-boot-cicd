@@ -2,6 +2,9 @@
 
 Run 
 ```
+// Analyze code with SonarQube
+$mvnw sonar:sonar -Dsonar.login=admin -Dsonar.password=password
+
 // For test
 $mvnw clean test
 
