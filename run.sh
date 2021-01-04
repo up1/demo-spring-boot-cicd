@@ -1,5 +1,7 @@
 #!/bin/sh
 kill -9 `cat demo.tpid`
+sleep 3
+echo $APP_NAME Stop Success!
 APP_NAME=demo
 APP_JAR=$APP_NAME".jar"
 nohup java -jar $APP_JAR > $APP_NAME".log" 2>&1 &
