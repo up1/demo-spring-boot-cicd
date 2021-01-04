@@ -6,11 +6,11 @@ import java.util.List;
 public class UserListResponse {
     private List<UserResponse> users = new ArrayList<>();
 
-    private String updated;
-
-    public String getUpdated() {
-        return updated;
-    }
+//    private String updated;
+//
+//    public String getUpdated() {
+//        return updated;
+//    }
 
     public void setUpdated(String updated) {
         this.updated = updated;
