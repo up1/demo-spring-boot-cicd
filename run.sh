@@ -1,5 +1,5 @@
 #!/bin/sh
-rm -f tpid
+kill -9 `cat demo.tpid`
 APP_NAME=demo
 APP_JAR=$APP_NAME".jar"
 nohup java -jar $APP_JAR > $APP_NAME".log" 2>&1 &
