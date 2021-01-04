@@ -12,9 +12,9 @@ public class UserListResponse {
 //        return updated;
 //    }
 
-    public void setUpdated(String updated) {
-        this.updated = updated;
-    }
+//    public void setUpdated(String updated) {
+//        this.updated = updated;
+//    }
 
     public UserListResponse() {
     }
