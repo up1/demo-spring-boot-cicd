@@ -3,7 +3,7 @@
 Run 
 ```
 // Analyze code with SonarQube
-$mvnw sonar:sonar -Dsonar.login=admin -Dsonar.password=password
+$mvnw sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=admin -Dsonar.password=password
 
 // For test
 $mvnw clean test
