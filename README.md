@@ -1,6 +1,6 @@
 # demo-spring-boot-cicd
 
-Run 
+Run app
 ```
 // Analyze code with SonarQube
 $mvnw sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=admin -Dsonar.password=admin -Dsonar.projectName=somkiat  -Dsonar.projectKey=somkiat
